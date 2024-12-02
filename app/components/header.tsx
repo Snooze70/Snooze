@@ -12,19 +12,19 @@ export default function Header() {
         <header className="flex sticky justify-center items-center py-[1rem] z-[100] bg-neutral-100">
             <div className="flex relative items-center justify-between gap-[1.25rem] md:px-[1.25rem]">
                 <div className="relative cursor-pointer left-[-5rem]">
-                    <img src="/Snooze_logo.png" width={150} height={150} alt="pic" />
+                    <img src="/Snooze_logo.png" alt="pic" className="w-[150px] h-[40px] " />
                 </div>
                 <ul>
                     <li className="flex list-none justify-evenly w-[50vw]">
                         {["Home", "Meditation", "Just Breathe", "Mood Tracker"].map((text) => (
                             <Link
-                                to={`#${text.toLowerCase().replace(" ", "-")}`}
+                                to={`${text.toLowerCase().replace(" ", "-")}` === "home" ? "" : `${text.toLowerCase().replace(" ", "-")}`}
                                 key={text}
                                 onClick={() => handleLinkClick(text)}
                             >
                                 <div className="flex flex-col items-center gap-[0.25rem]">
                                     <h4
-                                        className={`text-[1.13rem] font-serif text-[#1C5A5A] ${
+                                        className={`text-[1.13rem] hover:cursor-pointer font-serif text-[#1C5A5A] ${
                                             activeLink === text ? "font-bold duration-1000 border-b-[0.19rem] border-yellow-400" : ""
                                         }`}
                                     >
@@ -36,7 +36,7 @@ export default function Header() {
                     </li>
                 </ul>
                 <div className="flex relative gap-[2rem] right-[-5rem]">
-                    <Link to="#login" onClick={() => handleLinkClick("Login")}>
+                    <Link to="login" onClick={() => handleLinkClick("Login")}>
                         <div className="flex flex-col items-center gap-[0.25rem]">
                             <h4
                                 className={`text-[1.13rem] font-serif text-[#1C5A5A] ${
@@ -47,7 +47,7 @@ export default function Header() {
                             </h4>
                         </div>
                     </Link>
-                    <Link to="#try-snooze">
+                    <Link to="try-snooze">
                         <button className="bg-[#1C5A5A] px-[10px] py-[5px] rounded-[5px] text-white">
                             Try Snooze for free
                         </button>

@@ -2,7 +2,7 @@ import { Link } from "@remix-run/react";
 
 export default function Footer() {
     return (
-        <footer className="flex overflow-hidden py-[1rem] z-[100] bg-neutral-100">
+        <footer className="flex bottom-0 overflow-hidden py-[1rem] z-[100] bg-neutral-100">
             <div className="relative w-[100vw] px-[6rem] pt-8">
                 <div className="flex justify-between pb-8">
                     <div className="flex relative w-[30vw] items-center justify-between gap-[1.25rem]">
