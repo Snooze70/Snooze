@@ -6,7 +6,7 @@ const Meditation: React.FC = () => {
     <>
       <div className="medHero relative">
         <img
-          src="/public/medHero.jpeg"
+          src="/medHero.jpeg"
           alt="calm waters"
           className="h-40 w-full md:h-52 "
         />
