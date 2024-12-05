@@ -4,10 +4,12 @@
 
 html,
 body {
-  @apply bg-black dark:bg-gray-950;
+  @apply bg-white dark:bg-gray-100;
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
+  overflow-x: hidden;
+
+  @media (prefers-color-scheme: light) {
+    color-scheme: white;
   }
 }
 
@@ -20,4 +22,8 @@ body {
 footer p {
   font-size: small;
   padding-top: 1rem;
+}
+
+input {
+  color: black;
 }
