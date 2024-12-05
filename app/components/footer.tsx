@@ -2,8 +2,8 @@ import { Link } from "@remix-run/react";
 
 export default function Footer() {
     return (
-        <footer className="flex bottom-0 overflow-hidden py-[1rem] z-[100] bg-neutral-100">
-            <div className="relative w-[100vw] px-[6rem] pt-8">
+        <footer className="flex justify-between py-[1rem] bg-neutral-100 w-full mt-auto">
+            <div className="relative w-full px-[6rem] pt-8">
                 <div className="flex justify-between pb-8">
                     <div className="flex relative w-[30vw] items-center justify-between gap-[1.25rem]">
                         <div className="">
@@ -22,7 +22,7 @@ export default function Footer() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex relative w-[70vw] justify-evenly left-[5rem] ">
+                    <div className="flex relative w-[70vw] justify-evenly left-[5rem]">
                         <div>
                             <div className="font-bold pb-5">About</div>
                             <p>How It Works</p>
@@ -46,7 +46,7 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="relative h-[0.15rem] w-[100%] bg-gray-200"></div>
+                <div className="relative h-[0.15rem] w-full bg-gray-200"></div>
                 <div className="flex justify-between pt-8 text-[#1C5A5A] font-semibold">
                     <small>©2024 Snooze. All rights reserved.</small>
                     <span className="flex relative gap-10 justify-between">
@@ -56,5 +56,5 @@ export default function Footer() {
                 </div>
             </div>
         </footer>
-    )
+    );
 }
