@@ -60,7 +60,7 @@ export default function Index() {
               alt="woman meditating"
               className="w-[5rem] h-[5rem] rounded-[10px]"
             />
-            <p className="text-[#1C5A5A] font-bold text-center">Key Features</p>
+            <p className="relative text-3xl text-[#1C5A5A] font-bold pt-6 pl-7">Key Features</p>
           </div>
           <div className="grid grid-cols-3 w-[85vw] mx-auto overflow-hidden py-5">
             <Card
@@ -87,8 +87,8 @@ export default function Index() {
             />
           </div>
           <div className="absolute left-0 m-0 p-0 h-[0.01rem] w-[100vw] bg-gray-200"></div>
-          <div className="relative grid grid-cols-2 w-[85vw] mx-auto place-items-center overflow-hidden pt-10">
-            <section className="py-8 text-[#1C5A5A]">
+          <div className="relative flex w-[95vw] pl-4 place-items-center overflow-hidden pt-9 pb-5">
+            <section className="w-1/2 py-8 text-[#1C5A5A]">
               <h2 className="text-3xl font-bold mb-7">Client Testimonials</h2>
               <p className="pb-7">See what our clients have to say</p>
               <u className="font-bold text-xl">Read More</u>
