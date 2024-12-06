@@ -39,7 +39,7 @@ export default function Header() {
                     <Link to="login" onClick={() => handleLinkClick("Login")}>
                         <div className="flex flex-col items-center gap-[0.25rem]">
                             <h4
-                                className={`text-[1.13rem] font-serif text-[#1C5A5A] ${
+                                className={`text-[1.13rem] hover:cursor-pointer font-serif text-[#1C5A5A] ${
                                     activeLink === "Login" ? "font-bold duration-1000 border-b-[0.19rem] border-yellow-400" : ""
                                 }`}
                             >
@@ -47,8 +47,12 @@ export default function Header() {
                             </h4>
                         </div>
                     </Link>
-                    <Link to="try-snooze">
-                        <button className="bg-[#1C5A5A] px-[10px] py-[5px] rounded-[5px] text-white">
+                    <Link to="signup">
+                        <button
+                        onClick={() => handleLinkClick("Signup")}
+                        className={`bg-[#1C5A5A] px-[10px] py-[5px] rounded-[5px] text-white ${
+                            activeLink === "Signup" && ""
+                        }`}>
                             Try Snooze for free
                         </button>
                     </Link>
