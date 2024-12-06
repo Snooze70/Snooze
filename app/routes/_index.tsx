@@ -36,7 +36,7 @@ export default function Index() {
           <p className="text-lg md:text-xl mb-6">
             Guided meditations and exercises for mental well-being
           </p>
-          <Link to="#try-snooze">
+          <Link to="signup">
             <button className="bg-[#D3AA00] px-4 py-2 rounded text-white text-lg hover:bg-[#c09a00]">
               Try Snooze for free
             </button>
@@ -129,14 +129,14 @@ export default function Index() {
             {/* Form Section */}
             <form className="w-1/2 rounded-lg ">
               <div className="mb-12">
-                <label htmlFor="username" className="block text-sm font-bold mb-2">
-                  Username
+                <label htmlFor="fullname" className="block text-sm font-bold mb-2">
+                  Full Name
                 </label>
                 <input
-                  id="username"
+                  id="fullname"
                   type="text"
                   required
-                  placeholder="Enter your username"
+                  placeholder="Enter your fullname"
                   className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
                 />
               </div>
