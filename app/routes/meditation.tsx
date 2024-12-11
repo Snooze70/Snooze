@@ -416,11 +416,11 @@ const Meditation: React.FC = () => {
                 <img src="/public/tq-1.png" alt="Ear piece" />
               </div>
               <div className="text-section">
-                <h3>Tranquil Serenity</h3>
-                <span className="text-green-800 my-2 font-bold">
+                <h3 className="font-bold mb-2">Tranquil Serenity</h3>
+                <span className="text-gray-400 my-2 font-bold">
                   Artist: Zen Harmony
                 </span>
-                <p className="text-wrap">
+                <p className="text-wrap my-2">
                   Experience inner calm with this serene instrumental piece.
                 </p>
               </div>
