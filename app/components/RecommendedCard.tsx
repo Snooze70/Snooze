@@ -17,7 +17,7 @@ const MeditationCard = ({
       </div>
       <div className="text-section">
         <h3 className="font-bold my-2">{title}</h3>
-        <span className="text-gray-400 my-2 font-bold my-2">
+        <span className="text-gray-400 font-bold my-2">
           {duration} mins
         </span>
         <p className="text-wrap">{description}</p>
