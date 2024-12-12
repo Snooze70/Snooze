@@ -1,7 +1,6 @@
 import { Link } from "@remix-run/react";
-import SignUp from "./signup";
 import React from "react";
-const Just_breathe: React.FC = () => {
+const JustBreathe: React.FC = () => {
   return (
     <>
       <div className="bg-green-50">
@@ -28,7 +27,7 @@ const Just_breathe: React.FC = () => {
         <div className="breath-exercises p-12">
           <div className="container-breath flex flex-col gap-4">
             <div className="right-container flex flex-col md:flex-row items-center gap-8">
-              <img src="/public/bth-1.png" alt="Math Exercise" className="" />
+              <img src="/bth-1.png" alt="Math Exercise" className="" />
               <div className="flex flex-col items-start gap-8  text-green-800 ">
                 <h2 className="font-bold text-3xl">Breathing Exercise</h2>
                 <p className="text-md">
@@ -43,19 +42,19 @@ const Just_breathe: React.FC = () => {
             </div>
             <div className="flex flex-col jstify-between gap-8 my-4 items-center md:flex-row text-green-800 ">
               <div className="flex flex-col gap-2 border border-gray-300 rounded-lg">
-                <img src="/public/bth-2.png" alt="Breath Practice" />
+                <img src="/bth-2.png" alt="Breath Practice" />
                 <p className="my-1 mx-1 p-1">Inhale and Exhale</p>
                 <span className="mb-1 mx-1 p-1 font-bold">1 mins</span>
               </div>
 
               <div className="flex flex-col gap-2 border border-gray-300 rounded-lg">
-                <img src="/public/bth-4.png" alt="Breath Practice" />
+                <img src="/bth-4.png" alt="Breath Practice" />
                 <p className="my-1 mx-1 p-1">Box Breathing</p>
                 <span className="mb-1 mx-1 p-1 font-bold">3 mins</span>
               </div>
 
               <div className="flex flex-col gap-2 border border-gray-300 rounded-lg">
-                <img src="/public/bth-3.png" alt="Breath Practice" />
+                <img src="/bth-3.png" alt="Breath Practice" />
                 <p className="my-1 mx-1 p-1">4-7-8 Technique</p>
                 <span className="mb-1 mx-1 p-1 font-bold">5 mins</span>
               </div>
@@ -81,7 +80,7 @@ const Just_breathe: React.FC = () => {
             <div className="flex flex-col jstify-between gap-4 my-4 items-center md:flex-col text-green-800 md:w-2/4">
               <div className="flex flex-col md:flex-row gap-2 border border-gray-300 rounded-lg">
                 <img
-                  src="/public/bth-2.png"
+                  src="/bth-2.png"
                   alt="Breath Practice"
                   className="md:h-40"
                 />
@@ -96,7 +95,7 @@ const Just_breathe: React.FC = () => {
 
               <div className="flex flex-col md:flex-row gap-2 border border-gray-300 rounded-lg">
                 <img
-                  src="/public/bth-3.png"
+                  src="/bth-3.png"
                   alt="Breath Practice"
                   className="md:h-40"
                 />
@@ -111,7 +110,7 @@ const Just_breathe: React.FC = () => {
 
               <div className="flex flex-col md:flex-row gap-4 border border-gray-300 rounded-lg">
                 <img
-                  src="/public/bth-4.png"
+                  src="/bth-4.png"
                   alt="Breath Practice"
                   className="md:h-40"
                 />
@@ -200,4 +199,4 @@ const Just_breathe: React.FC = () => {
     </>
   );
 };
-export default Just_breathe;
+export default JustBreathe;
