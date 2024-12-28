@@ -14,7 +14,7 @@ import Footer from "./components/footer";
 export const links: LinksFunction = () => [
   {
     rel: "icon",
-    href: "/image.png",
+    href: "/favimage.png",
     type: "image/png",
   },
   { rel: "preconnect", href: "https://fonts.googleapis.com" },

@@ -5,7 +5,7 @@ import MoodTriggerCard from "~/components/moodTriggerCard"
 
 export const MoodTracker = () => {
     return (
-        <div className="bg-[#EEF3EF] w-[100vw]">
+        <div className="bg-[#EEF3EF] text-[#1C5A5A] w-[100vw]">
             {/* Hero Section */}
             <div className="relative h-[40vh] w-full">
                 <img
@@ -109,6 +109,123 @@ export const MoodTracker = () => {
                     className="w-[85%] h-[30rem]"
                     />
                 </div>
+            </div>
+
+            {/* "Log Your Thoughts" Section */}
+            <div className="relative w-screen py-10 text-[#1C5A5A] flex justify-center">
+                <div className="w-screen max-w-[1200px] flex justify-between items-start sm:px-8">
+                    {/* Text Section */}
+                    <div className="relative w-1/2 top-[45%]">
+                    <h2 className="text-4xl font-bold mb-4">Log Your Thought And Feelings</h2>
+                    <small className="">
+                        Identify patterns and reflect on your state of mind
+                    </small>
+                    </div>
+
+                    {/* Form Section */}
+                    <form className="w-1/2 rounded-lg ">
+                    <div className="mb-12">
+                        <label htmlFor="emotional-state" className="block text-sm font-bold mb-2">
+                        Emotional State
+                        </label>
+                        <input
+                        id="emotional-state"
+                        type="text"
+                        required
+                        placeholder="How are you feeling"
+                        className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+                        />
+                        <small className="text-gray-300">Select from the options</small>
+                    </div>
+                    <div className="mb-12">
+                        <label htmlFor="significant-events" className="block text-sm font-bold mb-2">
+                        Significant Events
+                        </label>
+                        <input
+                        id="significant-events"
+                        type="text"
+                        required
+                        placeholder="Note down important events"
+                        className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+                        />
+                    </div>
+                    <div className="mb-12">
+                        <label
+                        htmlFor="triggers"
+                        className="block text-sm font-bold mb-2"
+                        >
+                        Triggers
+                        </label>
+                        <input
+                        id="triggers"
+                        type="text"
+                        required
+                        placeholder="What triggered your feelings"
+                        className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+                        />
+                    </div>
+                    <button
+                        type="submit"
+                        className="w-[12rem] text-[#ffffff] bg-[#1C5A5A] font-bold py-2 px-4 rounded-md hover:bg-[#bbbbbb] transition"
+                    >
+                        Log Thoughts
+                    </button>
+                    </form>
+                </div>
+            </div>
+
+            {/* "Log Your Thoughts" Section */}
+            <div className="relative w-screen py-10 text-[#1C5A5A] flex justify-center">
+                <div className="w-screen max-w-[1200px] flex justify-between items-start sm:px-8">
+                    {/* Text Section */}
+                    <div className="relative w-1/2 top-[45%]">
+                        <h2 className="text-4xl font-bold mb-4">Mood Games</h2>
+                    </div>
+
+                    {/* Form Section */}
+                    <div className="relative pt-10">
+                        <MoodCard
+                        mood="Calm Puzzles"
+                        image="/icon-1.png"
+                        cause="Engage your mind"
+                        />
+                        <MoodCard
+                        mood="Nature Escape"
+                        image="/icon-2.png"
+                        cause="Relax with tranquil scenes"
+                        />
+                    </div>
+                </div>
+            </div>
+
+            <div className="flex relative ml-[7rem] pb-10 p-2 font-bold">
+                <img src="/" alt="current mood emoji" className="w-[12rem] h-[12rem] bg-gray-300 " />
+                <div className="relative pl-16">
+                    <p className="text-3xl pb-7">Mood Tracker</p>
+                    <small>Monitor your emotional well-being</small><br></br>
+                    <button
+                        type="submit"
+                        className="relative top-10 w-[12rem] text-[#ffffff] bg-[#1C5A5A] font-bold py-2 px-4 rounded-md hover:bg-[#bbbbbb] transition"
+                    >
+                        Start Now
+                    </button>
+                </div>
+            </div>
+            <div>
+                <div className="w-[85vw] mx-auto overflow-hidden pb-32">
+                <img
+                src="/chart.png"
+                alt="woman meditating"
+                className="w-full h-[400px] rounded-[10px]"
+                />
+            </div>
+            <div className="w-[85vw] mx-auto overflow-hidden pb-32">
+                <img
+                src="/chart-params.png"
+                alt="woman meditating"
+                className="w-full h-[100px] rounded-[10px]"
+                />
+            </div>
             </div>
         </div>
     )

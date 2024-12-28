@@ -12,7 +12,7 @@ const MoodCard: FC<MoodCardProps> = ({ mood, cause, image }) => {
                 <img src={ image } alt={ mood } className="w-12 h-12 rounded-full mr-2" /> {/* Placeholder */}
                 <div className="pt-5">
                     <small className="font-medium">{ mood }</small>
-                    <p className="text-[12px] pb-5">{ cause }</p>
+                    <p className="text-[12px] text-gray-500 pb-5">{ cause }</p>
                 </div>
             </div>
             

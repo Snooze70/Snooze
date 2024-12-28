@@ -7,34 +7,34 @@ import MeditationCard from "~/components/RecommendedCard";
 const Meditation: React.FC = () => {
   const meditationCategories = [
     {
-      icon: "/public/music.png",
+      icon: "/music.png",
       title: "Meditation Music",
       description: "Soothing tracks for relaxation",
     },
     {
-      icon: "/public/sounds.png",
+      icon: "/sounds.png",
       title: "Meditation Music",
       description: "Soothing tracks for relaxation",
     },
     {
-      icon: "/public/head2.png",
+      icon: "/head2.png",
       title: "Meditation Music",
       description: "Soothing tracks for relaxation",
     },
   ];
   const meditationPlaylists = [
     {
-      icon: "/public/file.png",
+      icon: "/file.png",
       title: "My Meditation Mix",
       trackCount: 10,
     },
     {
-      icon: "/public/file.png",
+      icon: "/file.png",
       title: "Chill Vibes",
       trackCount: 8,
     },
     {
-      icon: "/public/file.png",
+      icon: "/file.png",
       title: "Work Focus",
       trackCount: 12,
     },
@@ -86,7 +86,7 @@ const Meditation: React.FC = () => {
               >
                 <div>
                   <img
-                    src="/public/headphone.png"
+                    src="/headphone.png"
                     alt="Listens to music"
                     className="h-20 w-20 rounded-sm"
                   />
@@ -104,7 +104,7 @@ const Meditation: React.FC = () => {
               <div className="flex flex-row gap-4 items-center rounded-md border border-gray-400 p-4">
                 <div>
                   <img
-                    src="/public/calmImage.png"
+                    src="/calmImage.png"
                     alt="Listens to music"
                     className="h-20 w-20 rounded-sm"
                   />
@@ -122,7 +122,7 @@ const Meditation: React.FC = () => {
               <div className="flex flex-row gap-4 items-center rounded-md border border-gray-400 p-4 ">
                 <div>
                   <img
-                    src="/public/progresTracker.png"
+                    src="/progresTracker.png"
                     alt="Listens to music"
                     className="h-20 w-20 rounded-sm"
                   />
@@ -142,7 +142,7 @@ const Meditation: React.FC = () => {
           {/* right image meditation */}
           <div className="imageMed">
             <img
-              src="/public/meditation-image.png"
+              src="/meditation-image.png"
               alt="Meditation pic"
               className="max-h-screen"
             />
@@ -156,7 +156,7 @@ const Meditation: React.FC = () => {
           {/* featured med-explore */}
           <div className="flex flex-col items-center gap-4 md:flex-row  ">
             <div className="image">
-              <img src="/public/FeaturedMed.png" alt="Flower pic" />
+              <img src="/FeaturedMed.png" alt="Flower pic" />
             </div>
             <div className="text-green-800">
               <h2 className="text-3xl font-bold  my-4">Featured Meditations</h2>
@@ -174,60 +174,60 @@ const Meditation: React.FC = () => {
           <div className="flex flex-col justify-between gap-4 items-center  md:flex-row my-8">
             <div className="flex flex-col border border-gray-200 rounded-md text-green-800">
               <div>
-                <img src="/public/rechome.png" alt="Woman meditating" />
+                <img src="/rechome.png" alt="Woman meditating" />
               </div>
               <div className="p-4">
                 <p className="my-3">Beach Meditation</p>
                 <span className="text-green-800 my-4 font-bold">10 mins</span>
                 <div className="flex flex-row items-center gap-4 my-2">
                   <span>
-                    <img src="/public/iconx2.png" alt="Leave icon" />
+                    <img src="/iconx2.png" alt="Leave icon" />
                   </span>
                   <span>
-                    <img src="/public/icon-fountain.png" alt="blue sea" />
+                    <img src="/icon-fountain.png" alt="blue sea" />
                   </span>
                   <span>
-                    <img src="/public/icon-ice.png" alt="water wave" />
+                    <img src="/icon-ice.png" alt="water wave" />
                   </span>
                 </div>
               </div>
             </div>
             <div className="flex flex-col border border-gray-200 rounded-md text-green-800">
               <div>
-                <img src="/public/newhome.png" alt="Woman meditating" />
+                <img src="/newhome.png" alt="Woman meditating" />
               </div>
               <div className="p-4">
                 <p className="my-3">Beach Meditation</p>
                 <span className="text-green-800 my-4 font-bold">15 mins</span>
                 <div className="flex flex-row items-center gap-4 my-2">
                   <span>
-                    <img src="/public/iconx2.png" alt="Leave icon" />
+                    <img src="/iconx2.png" alt="Leave icon" />
                   </span>
                   <span>
-                    <img src="/public/icon-fountain.png" alt="blue sea" />
+                    <img src="/icon-fountain.png" alt="blue sea" />
                   </span>
                   <span>
-                    <img src="/public/icon-ice.png" alt="water wave" />
+                    <img src="/icon-ice.png" alt="water wave" />
                   </span>
                 </div>
               </div>
             </div>
             <div className="flex flex-col border border-gray-200 rounded-md text-green-800">
               <div>
-                <img src="/public/pophome.png" alt="Woman meditating" />
+                <img src="/pophome.png" alt="Woman meditating" />
               </div>
               <div className="p-4">
                 <p className="my-3">Beach Meditation</p>
                 <span className="text-green-800 my-4 font-bold">20 mins</span>
                 <div className="flex flex-row items-center gap-4 my-2">
                   <span>
-                    <img src="/public/iconx2.png" alt="Leave icon" />
+                    <img src="/iconx2.png" alt="Leave icon" />
                   </span>
                   <span>
-                    <img src="/public/icon-fountain.png" alt="blue sea" />
+                    <img src="/icon-fountain.png" alt="blue sea" />
                   </span>
                   <span>
-                    <img src="/public/icon-ice.png" alt="water wave" />
+                    <img src="/icon-ice.png" alt="water wave" />
                   </span>
                 </div>
               </div>
@@ -243,7 +243,7 @@ const Meditation: React.FC = () => {
           <div className="flex flex-col items-center gap-4 md:flex-row  ">
             <div className="image">
               <img
-                src="/public/pophome.png"
+                src="/pophome.png"
                 alt="Flower pic"
                 className="h-40"
               />
@@ -263,42 +263,42 @@ const Meditation: React.FC = () => {
 
           <div className="flex flex-col justify-between gap-4 items-center  md:flex-row my-8">
             <MeditationCard
-              imageSrc="/public/stresshome.png"
+              imageSrc="/stresshome.png"
               title="Stress relief meditation"
               duration={10}
               description="Take a deep breath and relax your mind with this meditation"
               tags={["Anxiety", "Stress Relief"]}
               therapistName="Therapist Name"
               additionalIcons={[
-                { src: "/public/iconx2.png", alt: "Leave icon" },
-                { src: "/public/serehome.png", className: "h-5" },
-                { src: "/public/iconx.png" },
+                { src: "/iconx2.png", alt: "Leave icon" },
+                { src: "/serehome.png", className: "h-5" },
+                { src: "/iconx.png" },
               ]}
             />
             <MeditationCard
-              imageSrc="/public/morningmedhome.png"
+              imageSrc="/morningmedhome.png"
               title="Sleep Meditation"
               duration={15}
               description="Start your day with positivity and clarity of mind. Energize your soul."
               tags={["Focus", "Energy Boost"]}
               therapistName="Yoga Instructor"
               additionalIcons={[
-                { src: "/public/iconx2.png", alt: "Leave icon" },
-                { src: "/public/serehome.png", className: "h-5" },
-                { src: "/public/iconx.png" },
+                { src: "/iconx2.png", alt: "Leave icon" },
+                { src: "/serehome.png", className: "h-5" },
+                { src: "/iconx.png" },
               ]}
             />
             <MeditationCard
-              imageSrc="/public/sleepmedhome.png"
+              imageSrc="/sleepmedhome.png"
               title="Stress relief meditation"
               duration={20}
               description="Let go of the day's worries and drift into peaceful sleep with this calming session."
               tags={["Sleep Aid", "Relaxation"]}
               therapistName="Meditation Expert"
               additionalIcons={[
-                { src: "/public/iconx2.png", alt: "Leave icon" },
-                { src: "/public/serehome.png", className: "h-5" },
-                { src: "/public/iconx.png" },
+                { src: "/iconx2.png", alt: "Leave icon" },
+                { src: "/serehome.png", className: "h-5" },
+                { src: "/iconx.png" },
               ]}
             />
           </div>
@@ -322,7 +322,7 @@ const Meditation: React.FC = () => {
             <div className="flex flex-row gap-4 items-center justify-evenly my-4">
               <div className="Serenity text-center">
                 <img
-                  src="/public/serehome.png"
+                  src="/serehome.png"
                   alt="Serene meditation"
                   className="bg-gray-400 rounded-full
                 my-2 mx-auto"
@@ -332,7 +332,7 @@ const Meditation: React.FC = () => {
               </div>
               <div className="text-center">
                 <img
-                  src="/public/cbhome.png"
+                  src="/cbhome.png"
                   alt="flower-picture"
                   className="bg-gray-400 rounded-full
                 my-2 mx-auto"
@@ -346,7 +346,7 @@ const Meditation: React.FC = () => {
           </div>
 
           <div className="left-section">
-            <img src="/public/srenhome.png" alt="" />
+            <img src="/srenhome.png" alt="" />
           </div>
         </div>
         <div className="line border border-gray-200"></div>
@@ -356,7 +356,7 @@ const Meditation: React.FC = () => {
           <div className="flex flex-col items-center gap-4 md:flex-row  ">
             <div className="image">
               <img
-                src="/public/pophome.png"
+                src="/pophome.png"
                 alt="Flower pic"
                 className="h-40"
               />
@@ -378,7 +378,7 @@ const Meditation: React.FC = () => {
           <div className="flex flex-col items-center gap-4 md:flex-row  ">
             <div className="image">
               <img
-                src="/public/p-header.png"
+                src="/p-header.png"
                 alt="Flower pic"
                 className="h-40"
               />
@@ -413,7 +413,7 @@ const Meditation: React.FC = () => {
           <div className="flex flex-col justify-between gap-4 items-center  md:flex-row my-8 text-green-800">
             <div className="flex flex-row border border-gray-200 rounded-md p-2 gap-4">
               <div>
-                <img src="/public/tq-1.png" alt="Ear piece" />
+                <img src="/tq-1.png" alt="Ear piece" />
               </div>
               <div className="text-section">
                 <h3 className="font-bold mb-2">Tranquil Serenity</h3>
@@ -428,7 +428,7 @@ const Meditation: React.FC = () => {
 
             <div className="flex flex-row gap-4 p-2 border border-gray-200 rounded-md">
               <div>
-                <img src="/public/oc-1.png" alt="Ocean view" />
+                <img src="/oc-1.png" alt="Ocean view" />
               </div>
               <div className="">
                 <h3 className="font-bold mb-2">Ocean Breeze</h3>
@@ -443,7 +443,7 @@ const Meditation: React.FC = () => {
 
             <div className="flex flex-row border border-gray-200 gap-4 rounded-md p-2">
               <div>
-                <img src="/public/mm-1.png" alt="mountain view" className="" />
+                <img src="/mm-1.png" alt="mountain view" className="" />
               </div>
               <div className="text-section">
                 <h3 className="font-bold mb-2">Stress relief meditation</h3>
